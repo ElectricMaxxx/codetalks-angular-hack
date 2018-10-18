@@ -8,3 +8,19 @@ Um bei einem gleichen Stand und in gleicher Umgebung starten zu können habe ich
 
 ## Install - Getting started
 
+
+### Complete Repository
+
+Simply clone the repository by:
+
+```bash
+$ git clone git@gitlab.com:ElectricMaxxx/code-talks-angular-hack.git
+$ cd code-talks-anagular-hack
+```
+
+### Use Docker
+
+.tbd
+
+### Nodejs on your machine
+
