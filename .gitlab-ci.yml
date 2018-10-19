@@ -1,0 +1,21 @@
+variables:
+  DOCKER_DRIVER: overlay2
+  CONTAINER_IMAGE: registry.gitlab.com/$CI_PROJECT_PATH
+
+before_script:
+  - mkdir -p ~/.docker
+  - docker login -u gitlab-ci-token -p $CI_JOB_TOKEN registry.gitlab.com
+
+stages:
+- build
+
+build-docker-image:
+  stage: build
+  image: docker:stable
+  services:
+  - docker:dind
+  tags: ["docker-privileged"]
+  script:
+  - docker pull $CONTAINER_IMAGE:master || true
+  - docker build --pull --cache-from $CONTAINER_IMAGE:master -t $CONTAINER_IMAGE:$CI_COMMIT_REF_SLUG .
+  - docker push $CONTAINER_IMAGE:$CI_COMMIT_REF_SLUG
