@@ -1,0 +1,11 @@
+version: "3"
+services:
+  cfp-app:
+      image: registry.gitlab.com/electricmaxxx/code-talks-angular-hack:latest
+      build:
+        context: ./
+      volumes:
+        - ./app/:/usr/src/app/
+      ports:
+        - 4201:4200
+      
