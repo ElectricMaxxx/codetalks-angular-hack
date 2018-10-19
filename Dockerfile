@@ -7,7 +7,7 @@ RUN apt-get update && apt-get install -yq google-chrome-stable
 
 
 # set working directory
-COPY ./the-app/ /usr/src/app
+COPY ./app/ /usr/src/app
 WORKDIR /usr/src/app
 
 # add `/usr/src/app/node_modules/.bin` to $PATH
