@@ -1,0 +1,143 @@
+{
+  "phrases": [
+    {
+      "id": 1,
+      "name": "Kommst du aus Duisburg?",
+      "category": {
+        "id": 1,
+        "category": "Ausgabe"
+      },
+      "translations": [
+        {
+          "id": 1,
+          "translation": "You come from Duisburg?",
+          "languageKey": "gb"
+        },
+        {
+          "id": 2,
+          "translation": "You come from Duisburg?",
+          "languageKey": "fr"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Wie heißt du",
+      "category": {
+        "id": 1,
+        "category": "Ausgabe"
+      },
+      "translations": [
+        {
+          "id": 3,
+          "translation": "What is your name?",
+          "languageKey": "gb"
+        },
+        {
+          "id": 4,
+          "translation": "Quesque tu ...?",
+          "languageKey": "fr"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Wie alt bist du?",
+      "category": {
+        "id": 2,
+        "category": "Anmeldung"
+      },
+      "translations": [
+        {
+          "id": 5,
+          "translation": "How old are you?",
+          "languageKey": "gb"
+        },
+        {
+          "id": 6,
+          "translation": "How old are you (FR)?",
+          "languageKey": "fr"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Wo kommst du her?",
+      "category": {
+        "id": 2,
+        "category": "Anmeldung"
+      },
+      "translations": [
+        {
+          "id": 7,
+          "translation": "Whrer are you from?",
+          "languageKey": "gb"
+        },
+        {
+          "id": 8,
+          "translation": "Where are you from (FR)?",
+          "languageKey": "fr"
+        }
+      ]
+    },
+    {
+      "name": "Ich bin neu",
+      "category": {
+        "id": 1,
+        "category": "Ausgabe"
+      },
+      "translations": [],
+      "id": 5
+    },
+    {
+      "name": "I am hungry",
+      "category": {
+        "id": 1,
+        "category": "Ausgabe"
+      },
+      "translations": [],
+      "id": 6
+    },
+    {
+      "name": "Kommst du aus Duisburg",
+      "category": {
+        "id": 1,
+        "category": "Ausgabe"
+      },
+      "translations": [],
+      "id": 7
+    },
+    {
+      "name": null,
+      "category": {
+        "id": 1,
+        "category": "Ausgabe"
+      },
+      "translations": [],
+      "id": 8
+    }
+  ],
+  "countries": [
+    {
+      "id": 1,
+      "name": "Englisch",
+      "languageKey": "gb"
+    },
+    {
+      "id": 2,
+      "name": "Französiaxh",
+      "languageKey": "fr"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "category": "Ausgabe"
+    },
+    {
+      "id": 2,
+      "category": "Anmeldung"
+    }
+  ],
+  "translations": []
+}
